@@ -1,42 +1,31 @@
 {
-  "name": "rss-feed-reader",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "name": "fullstack-rss-reader-server-vuejs",
+  "version": "1.0.0",
+  "description": "Fullstack RSS Feed Reader Server with VueJS front end.",
+  "main": "server.js",
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "feed-reader": "^1.1.6",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "node-fetch": "^2.6.0"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronrmcgrath/RSS-Reader-VueJS.git"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "author": "Aaron R McGrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronrmcgrath/RSS-Reader-VueJS/issues"
+  },
+  "homepage": "https://github.com/aaronrmcgrath/RSS-Reader-VueJS#readme"
 }

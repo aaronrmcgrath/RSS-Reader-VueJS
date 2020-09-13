@@ -10,7 +10,7 @@
     "feed-reader": "^1.1.6",
     "mongodb": "^3.6.0",
     "mongoose": "^5.10.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {},
   "scripts": {
